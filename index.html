@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <section class="section section-1">
+        <h2>SECTION 1</h2>
+        <div class="section-1_list-container">
+          <ul class="section-1_list-unnumbered">
+            <li class="product">Хлеб</li>
+            <li class="product">Масло</li>
+            <li class="product">Молоко</li>
+          </ul>
+        </div>
+        <div class="section-1_list-container">
+          <ol class="section-1_list-numbered">
+            <li class="product">Хлеб</li>
+            <li class="product">Масло</li>
+            <li class="product">Молоко</li>
+          </ol>
+        </div>
+        <div class="section-1_list-container">
+          <dl class="section-1_list-terms">
+              <dt class="section-1_term">HTML
+                <dd class="term-description">Язык гипертекстовой разметки, служит для создания HTML страниц</dd>
+              </dt>
+              <dt class="section-1_term">CSS
+                <dd class="term-description">Каскадные таблицы стилей, служат я стилизации элементов HTML страницы</dd>
+              </dt>
+          </dl>
+        </div>
+      </section>
+      
+      <section class="section section-2">
+        <h2>SECTION 2</h2>
+        <form class="section-2_form">
+          <input type="text" placeholder="Плейсхолдер">
+          <input type="number">
+          <input type="text" disabled placeholder="disabled">
+          <input type="password">
+          <input type="textarea" placeholder="Введите текст">
+          <input type="submit" value="Кнопка через тег input">
+          <button>Кнопка через тег button</button>
+        </form>
+      </section>
+
+      <section class="section section-3">
+        <h2>SECTION 3</h2>
+        <table class="section-3_table table-1">
+          <tr class="table_row">
+            <th>Ячейка 1</th>
+            <th>Ячейка 2</th>
+            <th>Ячейка 3</th>
+          </tr>
+          <tr class="table_row">
+            <td>Ячейка 4</td>
+            <td>Ячейка 5</td>
+            <td>Ячейка 6</td>
+          </tr>
+          <tr class="table_row">
+            <td>Ячейка 7</td>
+            <td>Ячейка 8</td>
+            <td>Ячейка 9</td>
+          </tr>
+        </table>
+        <table class="section-3_table table-2">
+          <tr class="table_row">
+            <td colspan="3">Ячейка 1</td>
+          </tr>
+          <tr class="table_row">
+            <td>Ячейка 4</td>
+            <td rowspan="2">Ячейка 5</td>
+            <td>Ячейка 6</td>
+          </tr>
+          <tr class="table_row">
+            <td>Ячейка 8</td>
+            <td>Ячейка 9</td>
+          </tr>
+        </table>
+        <table class="section-3_table table-3">
+          <thead>
+            <tr class="table_row">
+              <th rowspan="2">номер</th>
+              <th colspan="4">теги</th>
+            </tr>
+            <tr class="table_row">
+              <th>тег</th>
+              <th colspan="3">значение</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table_row">
+              <td>1</td>
+              <td>p</td>
+              <td rowspan="4">для текста</td>
+            </tr>
+            <tr class="table_row">
+              <td>2</td>
+              <td>a</td>
+            </tr>
+            <tr class="table_row">
+              <td>3</td>
+              <td>b</td>
+            </tr>
+            <tr class="table_row">
+              <td>4</td>
+              <td>i</td>
+            </tr>
+            <tr class="table_row">
+              <td>5</td>
+              <td>table</td>
+              <td>таблица</td>
+            </tr>
+            <tr class="table_row">
+              <td>6</td>
+              <td>tr</td>
+              <td>ряд таблицы</td>
+            </tr>
+            <tr class="table_row">
+              <td>7</td>
+              <td>td</td>
+              <td rowspan="2">ячейки таблицы</td>
+            </tr>
+            <tr class="table_row">
+              <td>8</td>
+              <td>th</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section class="section section-4">
+        <h2>SECTION 4</h2>
+        <div class="section-4_text-container">
+          <p>But ere she from the church-door stepped She smiled and told us why: 'It was a wicked woman's curse,' Quoth she, 'and what care I?' She smiled, and smiled, and passed it off Ere from the door she stept—</p>
+        </div>
+        <div class="section-4_text-container">
+          <div class="text-container_border text-border-1">
+            <p>But ere she from the church-door stepped She smiled and told us why: 'It was a wicked woman's curse,' Quoth she, 'and what care I?' She smiled, and smiled, and passed it off Ere from the door she stept—</p>
+          </div>
+        </div>
+        <div class="section-4_text-container">
+          <div class="text-container_border text-border-2">
+            <p>
+              But ere she from the church-door stepped 
+                 She smiled and told us why: 
+              'It was a wicked woman's curse,' 
+                 Quoth she, 'and what care I?' 
+                 
+              She smiled, and smiled, and passed it off 
+                 Ere from the door she stept—
+            </p>
+          </div>
+        </div>
+        <div class="section-4_text-container">
+          <div class="text-container_border text-border-3">
+            <p>
+              But ere she from the church-door stepped 
+                 She smiled and told us why: 
+              'It was a wicked woman's curse,' 
+                 Quoth she, 'and what care I?' 
+                 
+              She smiled, and smiled, and passed it off 
+                 Ere from the door she stept—
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-5">
+        <h2>SECTION 5</h2>
+        <div class="section-5_container">
+          <div class="section-5_container-item container-item-1">
+            <p>Это р</p>
+            <div>Это div</div>
+            <span>Это span</span>
+            <input type="text" value="Это input">
+          </div>
+          <div class="section-5_container-item container-item-2">
+            <h3>Это h3</h3>
+            <button>Это button</button>
+            <section>Это section 1</section>
+            <section>Это section 2</section>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-6">
+        <h2>SECTION 6</h2>
+        <ol class="section-6_tasks">
+          <li id="section-6_li-1">
+            <div class="task-1">
+              <p>esrdfngnd</p>
+            </div>
+            <div class="task-1 bbb">
+              <p class="xxx">dnbzggng</p>
+            </div>
+          </li>
+          <li id="section-6_li-2">
+            <div class="task-2 bbb">
+              <h2>rewgbdng</h2>
+            </div>
+            <div class="task-2">
+              <h2>mnbvmnbvnmbv</h2>
+            </div>
+          </li>
+          <li id="test">
+            <p class="bbb">1gfbd1</p>
+            <p class="xxx">2gfbd2</p>
+            <p class="bbb">3gfbd3</p>
+            <p class="xxx">4gfbd4</p>
+            <p class="bbb">5gfbd5</p>
+          </li>
+          <li id="test">
+            <h2>001</h2>
+            <h2 class="bbb">002</h2>
+            <h2>003</h2>
+            <h2 class="bbb">004</h2>
+            <h2>005</h2>
+          </li>
+          <li id="section-6_li-5">
+            <span class="bbb">4rbrb1vs1</span>
+            <span class="bbb">4rbrb2vs2</span>
+            <span class="bbb">4rbrb3vs3</span>
+          </li>
+          <li id="test">
+            <h2 class="bbb">1gDSFVFDBd1</h2>
+            <h2 class="bbb">3gNBGNGNd3</h2>
+            <h2 class="bbb">5GFMFbd5</h2>
+          </li>
+          <li id="section-6_li-7">
+            <p class="bbb">1g,.mnbm1</p>
+            <p class="xxx">2hrt34342</p>
+            <p class="bbb">3g-=-=-=3</p>
+            <p class="xxx">434t43td4</p>
+            <p class="bbb">5g55555d5</p>
+          </li>
+          <li id="test">
+            <h2 class="bbb">1</h2>
+            <h2 class="bbb">2</h2>
+          </li>
+          <li id="test">
+            <p class="bbb">1-1</p>
+            <p class="xxx">2-2</p>
+            <p class="bbb">3-3</p>
+          </li>
+          <li id="section-6_li-10">
+            <div class="xxx">
+              <p class="bbb">234423</p>
+              <h2 class="bbb">90879</h2>
+              <span class="bbb">mvgcfnx</span>
+            </div>
+          </li>
+          <li id="section-6_li-11">
+            <p class="bbb">1-1-1</p>
+            <p class="xxx">2-2-2</p>
+            <h2 class="xxx">h2_1</h2>
+            <h2 class="xxx">h2_2</h2>
+          </li>
+          <li id="test" data-value="45">
+            <p class="bbb">2-2-5</p>
+            <p class="xxx">2-1-4</p>
+            <p class="bbb">2-3-2</p>
+          </li>
+          <li id="section-6_li-13">
+            <div class="fff">
+              <p>0000001</p>
+              <h2 class="bbb">001 001</h2>
+              <span>1 1 1 1 1</span>
+            </div>
+          </li>
+          <li id="section-6_li-14">
+            <p class="bbb">765</p>
+            <p class="fff">765</p>
+            <p class="xxx">765</p>
+          </li>
+          <li id="section-6_li-15">
+            <div class="fff">
+              <p class="fff">0001000</p>
+              <h2 class="bbb">0012001</h2>
+              <span>1 2 3 2 1</span>
+            </div>
+          </li>
+          <li id="section-6_li-16" data-value="45">
+            <div class="fff">
+              <p class="bbb">0001000</p>
+              <h2 class="bbb">0012001</h2>
+              <span class="xxx">1 2 3 2 1</span>
+            </div>
+          </li>
+          <li id="section-6_li-17">
+            <div class="fff">
+              <h2 class="fff">0001000</h2>
+              <h2 class="bbb">0012001</h2>
+              <h2 class="xxx">1 2 3 2 1</h2>
+            </div>
+          </li>
+          <li id="section-6_li-18">
+            <span>aboba</span>
+            <span>aboba</span>
+            <span>aboba</span>
+            <span>aboba</span>
+            <span>aboba</span>
+            <span>aboba</span>
+          </li>
+          <li id="section-6_li-19" data-value="45"></li>
+          <li id="section-6_li-20">
+            <div class="parent">
+              <div class="child">ds</div>
+              <div class="child">dsg</div>
+              <div class="child">dsg</div>
+            </div>
+          </li>
+          <li id="section-6_li-21">
+            <p class="text active">active</p>
+            <p class="text">не active</p>
+          </li>
+          <li id="section-6_li-22">
+            <ul id="my-list">
+              <li>gsvfssf</li>
+              <li>fgfsfsfs</li>
+              <li>rsggrsrwgwr</li>
+            </ul>
+          </li>
+          <li id="section-6_li-2345">
+            <div class="container-parent">
+              <img src="#" alt="img1">
+              <p>p1</p>
+              <h1>h1</h1>
+              <p>p2</p>
+              <div>div1</div>
+              <p>p3</p>
+              <img src="#" alt="img2">
+              <p>p4</p>
+              <p>p5</p>
+              <div>div2</div>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section section-7">
+        <h2>SECTION 7</h2>
+        <div class="section-7_parent">
+          <div class="child1">child1</div>
+          <div class="child2">child2</div>
+          <div class="child3">child3</div>
+          <div class="child4">child4</div>
+        </div>
+
+        <div class="section-7_img-container">
+          <div class="section-7_img-1"></div>
+          <div class="section-7_img-2"></div>
+          <div class="section-7_img-3"></div>
+          <div class="section-7_img-4"></div>
+          <div class="section-7_img-5"></div>
+          <div class="section-7_img-6"></div>
+          <div class="section-7_img-7"></div>
+        </div>
+      </section>
+
+      <section class="section section-8">
+        <h2>SECTION 8</h2>
+        <div class="section-8_container">
+          <div class="section-8_block once"></div>
+          <div class="section-8_block"></div>
+        </div>
+      </section>
+
+      <section class="section section-9">
+        <h2>SECTION 9</h2>
+        <div class="section-9_container container-1">
+          <div class="conteiner-1-item"></div>
+          <div class="conteiner-1-item"></div>
+          <div class="conteiner-1-item"></div>
+          <div class="conteiner-1-item"></div>
+          <div class="conteiner-1-item"></div>
+          <div class="conteiner-1-item"></div>
+          <div class="conteiner-1-item"></div>
+        </div>
+        <div class="section-9_container container-2">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+        <div class="section-9_container container-3">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+        <div class="section-9_container container-4">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+        <div class="section-9_container container-5">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+        <div class="section-9_container container-6">
+          <div class="item"></div>
+          <div class="item"></div>
+          <div class="item"></div>
+        </div>
+        <div class="section-9_container container-7 container-78910">
+          <div class="container-789-item"></div>
+          <div class="container-789-item"></div>
+          <div class="container-789-item"></div>
+          <div class="container-789-item"></div>
+        </div>
+        <div class="section-9_container container-8 container-78910">
+          <div class="container-789-item"></div>
+          <div class="container-789-item"></div>
+          <div class="container-789-item"></div>
+          <div class="container-789-item"></div>
+        </div>
+        <div class="section-9_container container-9 container-78910">
+          <div class="container-789-item"></div>
+          <div class="container-789-item"></div>
+          <div class="container-789-item"></div>
+          <div class="container-789-item"></div>
+        </div>
+        <div class="section-9_container container-10 container-78910">
+          <div class="container-10-item"></div>
+          <div class="container-10-item"></div>
+          <div class="container-10-item"></div>
+          <div class="container-10-item"></div>
+        </div>
+        <div class="section-9_container container-11">
+          <div class="container-11-item">
+            <p>text text</p>
+          </div>
+          <div class="container-11-item">
+            <p>text text</p>
+          </div>
+          <div class="container-11-item">
+            <p>text text</p>
+          </div>
+          <div class="container-11-item">
+            <p>text text</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section-10">
+        <h2>SECTION 10</h2>
+        <div class="section-10_container">
+          <header class="section-10_header header">
+            <p>[Шапка страницы]</p>
+          </header>
+          <main class="section-10-main main">
+            <div class="main_container-main-part">
+              <p>[Основная часть]</p>
+              <div class="main_div">
+                <p>[Ещё 1]</p>
+              </div>
+              <div class="main_div">
+                <p>[Ещё 2]</p>
+              </div>
+              <div class="main_div div_wide">
+                <p>[Ещё 3]</p>
+              </div>
+            </div>
+            <aside class="section-10_aside aside">
+              <p>[Боковая область]</p>
+            </aside>
+          </main>
+          <footer class="section-10_footer footer">
+            <div class="footer_section-footer">
+              <p>[Секция футера 1]</p>
+            </div>
+            <div class="footer_section-footer">
+              <p>[Секция футера 2]</p>
+            </div>
+            <div class="footer_section-footer">
+              <p>[Секция футера 3]</p>
+            </div>
+            <div class="footer_section-footer">
+              <p>[Секция футера 4]</p>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
