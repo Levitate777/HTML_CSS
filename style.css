@@ -521,7 +521,7 @@ li[data-value="45"] {
 .section-10_container p {
   margin: 0;
 }
-.section-10_header {
+.section-10_container_header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -666,22 +666,22 @@ li[data-value="45"] {
   justify-content: center;
   align-items: center;
 }
-.section-14_header {
+.grid-container_header {
   grid-area: header;
 }
-.section-14_nav {
+.grid-container_nav {
   grid-area: nav;
 }
-.section-14_main {
+.grid-container_main {
   grid-area: main;
 }
-.section-14_section {
+.grid-container_section {
   grid-area: section;
 }
-.section-14_aside {
+.grid-container_aside {
   grid-area: aside;
 }
-.section-14_footer {
+.grid-container_footer {
   grid-area: footer;
 }
 
