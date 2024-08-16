@@ -36,7 +36,7 @@ p {
   justify-content: center;
   padding: 15px 0;
 }
-.section-2_form {
+.section-2__form {
   background-color: #fff;
   padding: 5px;
   display: flex;
@@ -54,7 +54,7 @@ p {
   gap: 50px;
   align-items: start;
 }
-.section-3_table {
+.section-3__table {
   border-collapse: collapse;
   background-color: #fff;
 }
@@ -62,7 +62,7 @@ p {
   width: 500px;
   height: 250px;
 }
-.table_row th, td{
+.table__row th, td{
   border: 1px solid #000;
 }
 .table-3 {
@@ -78,27 +78,27 @@ p {
   gap: 20px;
   align-items: start;
 }
-.section-4_text-container {
+.section-4__text-container {
   background-color: #fff;
   padding: 10px;
   overflow: hidden;
 }
-.section-4_text-container:nth-child(1) {
+.section-4__text-container:nth-child(1) {
   width: 325px;
   max-height: 200px;
 }
-.section-4_text-container:nth-child(2) {
+.section-4__text-container:nth-child(2) {
   width: 525px;
 }
-.section-4_text-container:nth-child(3) {
+.section-4__text-container:nth-child(3) {
   width: 465px;
 }
-.section-4_text-container p {
+.section-4__text-container p {
   font-size: 20px;
   line-height: normal;
   margin: 0;
 }
-.text-container_border {
+.text-container__border {
   border: 1px solid #5c5c5c;
   padding: 10px;
   width: 300px;
@@ -116,19 +116,19 @@ p {
 }
 
 /* SECTION 5*/
-.section-5_container {
+.section-5__container {
   background-color: #aca5b7;
   padding: 20px;
 }
-.section-5_container-item + .section-5_container-item {
+.section-5__container-item + .section-5__container-item {
   margin-top: 15px;
 }
-.section-5_container-item > *{
+.section-5__container-item > *{
   background-color: #bf5261;
   height: 50px;
   margin-bottom: 10px;
 }
-.section-5_container-item > input{
+.section-5__container-item > input{
   background-color: #fff;
   height: auto;
 }
@@ -276,7 +276,7 @@ li[data-value="45"] {
 }
 
 /* SECTION 7 */
-.section-7_parent {
+.section-7__parent {
   position: relative;
   background-color: #ffb3ca;
   width: 350px;
@@ -289,7 +289,7 @@ li[data-value="45"] {
   justify-content: space-evenly;
   margin-bottom: 30px;
 }
-.section-7_parent *{
+.section-7__parent *{
   border: 4px solid #000;
   background-color: #ff0000;
   width: 130px;
@@ -301,7 +301,7 @@ li[data-value="45"] {
   top: 50px;
   left:50px;
 }
-.section-7_img-container {
+.section-7__img-container {
   position: relative;
   z-index: 0;
   background-image: url('./img/Rectangle\ 26.png');
@@ -309,7 +309,7 @@ li[data-value="45"] {
   height: 406px;
   margin: 0 -15px 0;
 }
-.section-7_img-1 {
+.section-7__img-1 {
   position: absolute;
   z-index: 4;
   width: 250px;
@@ -319,7 +319,7 @@ li[data-value="45"] {
   bottom: 20px;
   left: 135px;
 }
-.section-7_img-2 {
+.section-7__img-2 {
   position: absolute;
   z-index: 2;
   width: 170px;
@@ -329,7 +329,7 @@ li[data-value="45"] {
   top: 70px;
   left: 50px;
 }
-.section-7_img-3 {
+.section-7__img-3 {
   position: absolute;
   z-index: 1;
   width: 115px;
@@ -339,7 +339,7 @@ li[data-value="45"] {
   top: 20px;
   left: 185px;
 }
-.section-7_img-4 {
+.section-7__img-4 {
   position: absolute;
   z-index: 5;
   width: 80px;
@@ -349,7 +349,7 @@ li[data-value="45"] {
   bottom: 0;
   right: 25px;
 }
-.section-7_img-5 {
+.section-7__img-5 {
   position: absolute;
   z-index: 1;
   width: 60px;
@@ -359,7 +359,7 @@ li[data-value="45"] {
   top: 85px;
   right: 105px;
 }
-.section-7_img-6 {
+.section-7__img-6 {
   position: absolute;
   z-index: 5;
   width: 70px;
@@ -369,7 +369,7 @@ li[data-value="45"] {
   bottom: 60px;
   left: 110px;
 }
-.section-7_img-7 {
+.section-7__img-7 {
   position: absolute;
   z-index: 3;
   width: 40px;
@@ -381,12 +381,12 @@ li[data-value="45"] {
 }
 
 /* SECTION 8 */
-.section-8_container {
+.section-8__container {
   background-color: #fff;
   display: flex;
   align-items: end;
 }
-.section-8_block {
+.section-8__block {
   margin: 30px; 
   padding: 20px; 
   width: 200px; 
@@ -405,14 +405,14 @@ li[data-value="45"] {
   flex-wrap: wrap;
   gap: 15px 35px;
 }
-.section-9_container {
+.section-9__container {
   background-color: #990099;
   width: 100%;
   height: 74px;
   display: flex;
   flex-wrap: wrap;
 }
-.section-9_container div {
+.section-9__container div {
   background-color: #f37b20;
 }
 .container-1 {
@@ -512,16 +512,16 @@ li[data-value="45"] {
 }
 
 /* SECTION 10 */
-.section-10_container {
+.section-10__container {
   height: 280px;
   background-color: #e0e0e0;
   text-align: center;
   font-size: 14px;
 }
-.section-10_container p {
+.section-10__container p {
   margin: 0;
 }
-.section-10_container_header {
+.section-10__container__header {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -532,7 +532,7 @@ li[data-value="45"] {
   height: 180px;
   display: flex;
 }
-.main_main-part {
+.main__main-part {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -540,32 +540,32 @@ li[data-value="45"] {
   width: 66%;
   background-color: #fefde1;
 }
-.main-part_container  {
+.main-part__container  {
   display: flex;
   flex-wrap: wrap;
   gap: 10px 15px;
 }
-.main-part_container_section {
+.main-part__container__section {
   padding-top: 12px;
   height: 40px;
   flex-grow: 1;
   background-color: #fdf7b4;
 }
-.section_wide {
+.section__wide {
   width: 100%;
 }
-.section-10_aside {
+.section-10__aside {
   padding-top: 15px;
   width: 34%;
   background-color: #d4f8c9;
 }
-.section-10_footer {
+.section-10__footer {
   display: flex;
   align-items: center;
   justify-content: space-around;
   height: 60px;
 }
-.footer_section-footer {
+.footer__section-footer {
   display: flex;
   align-items: center;
   padding: 10px;
@@ -573,21 +573,21 @@ li[data-value="45"] {
 }
 
 /* SECTION 11 */
-.section-11_parent {
+.section-11__parent {
   background-color: #AAA9B7;
   height: 250px;
 }
-.section-11_child {
+.section-11__child {
   width: 120px;
   height: 80px;
   background-color: #C31A1A80;
 }
-/*.parent-flexbox {
+/*.parent--flexbox {
   display: flex;
   align-items: center;
   justify-content: center;
 }*/
-.child-alternative {
+.child--alternative {
   position: relative;
   margin: 0 auto;
   top: 50%;
@@ -595,7 +595,7 @@ li[data-value="45"] {
 }
 
 /* SECTION 12 */
-.section-12_container {
+.section-12__container {
   width: 100%;
   height: 314px;
   border: 2px solid #000;
@@ -612,40 +612,40 @@ li[data-value="45"] {
   flex-direction: column;
   gap: 10px;
 }
-.section-13_block {
+.section-13__block {
   border: 2px solid #211adc;
   width: 100px;
   height: 100px;
 }
-.block_first-padding { /* одним значением задаём внктр. отступы по всему периметру */
+.block__first--padding { /* одним значением задаём внктр. отступы по всему периметру */
   padding: 15px;
 }
-.block_second-padding { /* первым значением задаём padding сверху и снизу, вторым слева и справа */
+.block__second--padding { /* первым значением задаём padding сверху и снизу, вторым слева и справа */
   padding: 15px 24px;
 }
-.block_third-padding { /* первым - сверху, вторым - слева и справа, третьим - снизу */
+.block__third--padding { /* первым - сверху, вторым - слева и справа, третьим - снизу */
   padding: 15px 0 24px;
 }
-.block_fourth-padding { /* 1 - сверху, 2 - справа, 3 - снизу, 4 - слева*/
+.block__fourth--padding { /* 1 - сверху, 2 - справа, 3 - снизу, 4 - слева*/
   padding: 1px 2px 3px 4px;
 }
 /* по аналог с padding, только margin - внешний отступ*/
-.block_first-margin {
+.block__first--margin {
   margin: 4px
 }
-.block_second-margin { /* выравним=ваем элемент по центру */
+.block__second--margin { /* выравним=ваем элемент по центру */
   margin: 0 auto;
 }
-.block_third-margin {
+.block__third--margin {
   margin: 15px 0 24px;
 }
-.block_fourth-margin {
+.block__fourth--margin {
   margin: 1px 2px 3px 4px;
 }
 
 
 /* SECTION 14 */
-.section-14_grid-container {
+.section-14__grid-container {
   height: 320px;
   padding: 10px;
   background-color: #b0c4de;
@@ -656,7 +656,7 @@ li[data-value="45"] {
                        "nav footer footer";
   gap: 10px;
 }
-.section-14_block {
+.section-14__block {
   border: 1px solid #000;
   border-radius: 10px;
   background-color: #2196f3;
@@ -666,47 +666,47 @@ li[data-value="45"] {
   justify-content: center;
   align-items: center;
 }
-.grid-container_header {
+.grid-container__header {
   grid-area: header;
 }
-.grid-container_nav {
+.grid-container__nav {
   grid-area: nav;
 }
-.grid-container_main {
+.grid-container__main {
   grid-area: main;
 }
-.grid-container_section {
+.grid-container__section {
   grid-area: section;
 }
-.grid-container_aside {
+.grid-container__aside {
   grid-area: aside;
 }
-.grid-container_footer {
+.grid-container__footer {
   grid-area: footer;
 }
 
 /* SECTION 15 */
-.section-15_grid-container {
+.section-15__grid-container {
   height: 368px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   gap: 10px;
 }
-.section-15_grid-container + .section-15_grid-container {
+.section-15__grid-container + .section-15__grid-container {
   margin-top: 20px;
 }
-.grid-container_block {
+.grid-container__block {
   display: grid;
   background-color: #ffaec5;
 }
-.item_child {
+.item__child {
   width: 100px;
   height: 100px;
   border: 2px solid #000;
   background-color: #ff0000;
 }
-.grid-happening-1 .item_child {
+.grid-happening-1 .item__child {
   align-self: center;
   justify-self: center;
 }
@@ -714,11 +714,11 @@ li[data-value="45"] {
   justify-items: center;
   align-items: center;
 }
-.grid-happening-3 .item_child-5{
+.grid-happening-3 .item__child-5{
   align-self: center;
   justify-self: center;
 }
-.section-15_flex-container {
+.section-15__flex-container {
   height: 622px;
   display: flex;
   flex-wrap: wrap;
@@ -726,10 +726,10 @@ li[data-value="45"] {
   margin-top: 20px;
   padding: 10px;
 }
-.section-15_flex-container, .section-15_grid-container {
+.section-15__flex-container, .section-15__grid-container {
   background-color: #ff8895;
 }
-.section-15_flex-container .item_child {
+.section-15__flex-container .item__child {
   width: 140px;
   height: 140px;
   border: 5px solid #000;
@@ -745,7 +745,7 @@ li[data-value="45"] {
 .flex-happening-3 {
   position: relative;
 }
-.flex-happening-3 .item_child-9{
+.flex-happening-3 .item__child-9{
   position: absolute;
   align-self: end;
   right: 5px;
